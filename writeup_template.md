@@ -1,22 +1,14 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
-
----
-
 **Finding Lane Lines on the Road**
 
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on your work in a written report
 
-
 [//]: # (Image References)
-
-[image1]: ./examples/grayscale.jpg "Grayscale"
-
+[image1]: ./test_images_output/sample_images.png "Original_vs_Process"
+	
 ---
 
 ### Reflection
@@ -39,7 +31,7 @@ Now to draw the line is simple as calculating coordinate of x, y from the above 
 
 Here is one of picture example of original image compare to image with lane lines drawn.
 
-![alt text][image1]
+![Original vs Process][image1]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
